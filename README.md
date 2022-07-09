@@ -1,5 +1,12 @@
 # VST Slot Tracker
-This project is more focussed on automated tracking of slots from VFS site for any country.
+This Autobot is written as MERN for getting slots on scheduled manner by fetching the information from VFS Global site.
+
+Related Projects are available at below projects for frontend to visualize data
+
+- Backend for Frontend component : - https://github.com/codyprashant/vfs-tracker
+- Frontend for Slots Tracking : - https://github.com/codyprashant/vfs-tracker-FE
+
+We will merge all three project soon in future.
 
 ## How to run locally
 
