@@ -1,0 +1,33 @@
+{
+  "name": "vfs-tracker-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^5.1.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.1",
+    "puppeteer": "^15.1.1",
+    "sleep": "^6.3.0",
+    "urlencode": "^1.1.0",
+    "uuid": "^8.3.2",
+    "xvfb": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
