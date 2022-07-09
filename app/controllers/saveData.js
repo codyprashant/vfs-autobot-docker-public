@@ -46,7 +46,7 @@ const saveRecord = async (locationSelectionText, categorySelectionText, subCateg
             if(alMonths.includes((availble.getMonth+1).toString())){
             // if(availble.getMonth+1 == 7){
                 for (let k = 0; k < emails.length; k++) {
-                    await sendEmail(locationSelectionText, statusResponsetext, availbileTime, email[k])
+                    await sendEmail(locationSelectionText, statusResponsetext, availbileTime, emails[k])
                     sleep.sleep('10');
                 }
             }
