@@ -32,10 +32,6 @@ Related Projects are available at below projects for frontend to visualize data
 | ALERT_MONTHS | Month Number for which you eant to receive alerts ('2,3,4')[comma seperate values are allowed in case of multiple months] |
 
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
-
 - After creating .env file run npm start
 
 ## Creating Docker 
