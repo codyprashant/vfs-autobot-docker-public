@@ -16,14 +16,6 @@ const saveData = async (req, res, next) => {
             statusResponsetext, dateString, locationCode, availbileTime, availbileSlots} = req.body
             console.log(req.body)
 
-            console.log(locationSelectionText)
-            console.log(categorySelectionText)
-            console.log(subCategorySelectionText)
-            console.log(statusResponsetext)
-            console.log(dateString)
-            console.log(locationCode)
-            console.log(availbileTime)
-            console.log(availbileSlots)
             let dataRecord = await saveRecord(locationSelectionText, categorySelectionText, subCategorySelectionText,
                 statusResponsetext, dateString, locationCode, availbileTime, availbileSlots);
     //   res.json({ status:"SUCCESS"});
@@ -43,9 +35,12 @@ const saveRecord = async (locationSelectionText, categorySelectionText, subCateg
             console.log(alertMonths)
             let alMonths = alertMonths.split(',');
             let availble = new Date(statusResponsetext);
-            if(alMonths.includes((availble.getMonth+1).toString())){
+
+            if(alMonths.includes((availble.getMonth()+1).toString())){
             // if(availble.getMonth+1 == 7){
+                console.log('Alert intialising')
                 for (let k = 0; k < emails.length; k++) {
+                    console.log(`Alerting for ${emails[k]}`)
                     await sendEmail(locationSelectionText, statusResponsetext, availbileTime, emails[k])
                     sleep.sleep('10');
                 }
