@@ -3,9 +3,8 @@ This Autobot is written as MERN for getting slots on scheduled manner by fetchin
 
 Related Projects are available at below projects for frontend to visualize data
 
-- Backend for Frontend component : - https://github.com/codyprashant/vfs-tracker
-- Frontend for Slots Tracking : - https://github.com/codyprashant/vfs-tracker-FE
-
+- Backend for Frontend component : - [Git Repo](https://github.com/codyprashant/vfs-tracker) 
+- Frontend for Slots Tracking : - [Git Repo](https://github.com/codyprashant/vfs-tracker-FE) | [Live Site](https://vfsslot-tracker.netlify.app/) 
 We will merge all three project soon in future.
 
 ## How to run locally
